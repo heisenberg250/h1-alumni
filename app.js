@@ -12,7 +12,7 @@ const AdminController = require('./src/controllers/adminController');
 const app = express();
 
 // Define the port
-const port = process.env.PORT || 7001;
+const port = 7001;
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
